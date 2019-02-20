@@ -1,0 +1,19 @@
+{
+  "name": "portfolio_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url styles/sass/mystyles.scss styles/styles.css",
+    "start": "npm run css-build -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
