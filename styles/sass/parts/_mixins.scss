@@ -1,0 +1,13 @@
+@mixin photoHeader($image, $color1: black, $grad1: 1, $color2: black, $grad2: .5, $bp: center) {
+	background-image:
+		linear-gradient(rgba($color1, $grad1), rgba($color2, $grad2)),
+		url($image);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	// width: 100vw;
+	// height: 50vh;
+	background-position: $bp;
+}

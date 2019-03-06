@@ -1,0 +1,24 @@
+
+#about {
+	@include photoHeader ("/images/jonathan-cho-672153-unsplash.jpg");
+	height: 200vh;
+}
+
+.about1 {
+	background-color: rgba($body-color, .05);
+	height: 100vh;
+}
+
+.about2 {
+	background-color: rgba($body-color, .05);
+	height: 100vh;
+}
+
+#projects {
+	@include photoHeader ("/images/peter-gabas-220313-unsplash.jpg");
+	height: 100vh;
+}
+#contact {
+	@include photoHeader ("/images/walter-mario-stein-357731-unsplash.jpg");
+	height: 100vh;
+}

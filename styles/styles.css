@@ -1,3 +1,41 @@
+#about {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.5)), url("/images/jonathan-cho-672153-unsplash.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 200vh; }
+
+.about1 {
+  background-color: rgba(0, 199, 254, 0.05);
+  height: 100vh; }
+
+.about2 {
+  background-color: rgba(0, 199, 254, 0.05);
+  height: 100vh; }
+
+#projects {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.5)), url("/images/peter-gabas-220313-unsplash.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh; }
+
+#contact {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.5)), url("/images/walter-mario-stein-357731-unsplash.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
