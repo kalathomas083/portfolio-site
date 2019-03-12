@@ -10,11 +10,11 @@
 
 .about1 {
   background-color: rgba(0, 199, 254, 0.05);
-  height: 100vh; }
+  height: 45vh; }
 
 .about2 {
   background-color: rgba(0, 199, 254, 0.05);
-  height: 100vh; }
+  height: 45vh; }
 
 #projects {
   background-image: linear-gradient(black, rgba(0, 0, 0, 0.5)), url("/images/peter-gabas-220313-unsplash.jpg");
