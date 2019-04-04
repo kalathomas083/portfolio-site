@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="has-navbar-fixed-top">
 
 <head>
 	<meta charset="utf-8">
@@ -11,45 +11,44 @@
 
 <body>
 	<!-- navbar start -->
-	<div class="container">
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-			<a class="navbar-brand" href="#">
-				<img src="/images/elogo.png" class="d-inline-block align-top" width="30" height="30" alt="blum">
-				Erica Blum
-			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-	
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#about">About me <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#projects">Projects</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contact Me</a>
-					</li>
-	
-				</ul>
+		<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="/">
+					<img src="/images/elogo.png" width="28" height="28">
+					<div class="" id="brand-name">
+						Erica Blum
+					</div>
+				</a>
+		
+				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+		
+			<div id="navbarBasicExample" class="navbar-menu">
+
+		
+				<div class="navbar-end">
+					<a href="#about" class="navbar-item">About Me</a>
+					<a href="#projects" class="navbar-item">My Projects</a>
+					<a href="#contact" class="navbar-item">Contact Us</a>
+				</div>
 			</div>
 		</nav>
-	</div>
 	<!-- navbar end -->
 
 	<!-- about me start -->
 	<section id="about">
 		<div class="container">
-			<div class="row justify-content-end">
-				<div class="col-1">Row 1</div>
-				<div class="col-10">Row 1</div>
-				<div class="col-1">Row 1</div>
-				<div class="col-8">Row 1</div>
-			</div>
-			<div class="row justify-content-center">
-					<div class="col-7">Row 2</div>
+			<div class="hero">
+				<div class="hero-body">
+					<div class="title">
+						<h1>About me~</h1>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</section>
@@ -57,28 +56,22 @@
 
 	<!-- projects start -->
 	<section id="projects">
-		<div class="container">
-			<div class="card" style="width: 18rem;">
-				<img src="..." class="card-img-top" alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-					<a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
+			<div class="title">
+				<h1>My chosen products</h1>
 			</div>
-		</div>
 	</section>
 	<!-- projects end -->
 
 	<!-- contact me start -->
 	<section id="contact">
+			<div class="title">
+				<h1>Contact me</h1>
+			</div>
 
 	</section>
 	<!-- contact me end -->
 </body>
 
 <script src="/scripts/scripts.js"></script>
-<script src="/node_modules/jquery/dist/jquery.min.js"></script>
-<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>

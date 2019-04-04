@@ -1,4 +1,12 @@
 // alternate 00c7fe
 
 $body-bg: Black;
-$body-color: #00c7fe;
+$eblue: #00c7fe;
+$body-color: $eblue;
+
+$title-color: $eblue;
+
+$navbar-background-color: black;
+$navbar-item-color: $eblue;
+$navbar-item-hover-color: black;
+$navbar-item-hover-background-color: $eblue;
